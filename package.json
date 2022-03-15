@@ -1,0 +1,23 @@
+{
+  "name": "barberapis",
+  "version": "1.0.0",
+  "description": "first version of barber apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "AAshraf",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.2",
+    "morgan": "^1.10.0",
+    "mssql": "^7.2.1",
+    "promise": "^8.1.0"
+  }
+}
